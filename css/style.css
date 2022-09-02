@@ -1,0 +1,66 @@
+/* Style Settings */
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css');
+:root {
+    --bgColor:#144c88;
+    /* --bgColor:#1C1C1C; */
+    --accentColor: #E6E6E6;
+    --font: Vazirmatn;
+}
+
+#userPhoto{
+    width: 110px;
+    height: 110px;
+    display: block;
+    margin: 35px auto 20px;
+    border-radius: 50%;
+}
+
+
+#links{
+    max-width: 675px;
+    width: auto;
+    display: block;
+    
+}
+.bg-box{
+    background-color: #144c88;
+}
+.link{
+    display: block;
+    background-color: var(--accentColor);
+    color: var(--bgColor);
+    font-family: var(--font);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all .25s cubic-bezier(.08,.59,.29,.99);
+}
+
+.link:hover{
+    background-color: var(--bgColor);
+    color: var(--accentColor);
+}
+.atrib{
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+    font-family: var(--font);
+    margin-bottom: 20px;
+    padding: 17px;
+    text-decoration: none;
+}
+.instagram {
+background: #f40083;
+color: white;
+}
+.whatsapp{
+    background: #0cae2a;
+    color: white;
+}
+.tell {
+    background: #430297;
+    color: white;
+}
