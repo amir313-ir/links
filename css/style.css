@@ -29,7 +29,7 @@
 .link{
     display: block;
     background-color: var(--accentColor);
-    color: var(--bgColor);
+
     font-family: var(--font);
     text-align: center;
     margin-bottom: 20px;
@@ -53,14 +53,18 @@
     text-decoration: none;
 }
 .instagram {
-background: #f40083;
-color: white;
+background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+color: #fff;
 }
 .whatsapp{
-    background: #0cae2a;
+   background:linear-gradient(60deg, #1EBEA5, #00E676);
     color: white;
 }
 .tell {
-    background: #430297;
+    background:linear-gradient(-120deg, #021B79, #0575E6, #205E9B);
     color: white;
+}
+.map{
+    background:linear-gradient(-120deg, #D62121, #C72C2C, #3a1111);
+    color: #fff;
 }
